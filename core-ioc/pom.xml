@@ -18,8 +18,4 @@
  </properties>
  <dependencies>
  </dependencies>
- <modules>
-  <module>ioc-order</module>
-  <module>lookup</module>
- </modules>
 </project>
