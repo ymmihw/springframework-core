@@ -27,4 +27,7 @@
    <scope>test</scope>
   </dependency>
  </dependencies>
+ <modules>
+  <module>classpath-file-access</module>
+ </modules>
 </project>
