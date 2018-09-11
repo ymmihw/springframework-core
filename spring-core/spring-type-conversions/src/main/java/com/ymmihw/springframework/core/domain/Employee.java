@@ -1,12 +1,7 @@
 package com.ymmihw.springframework.core.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Entity
 public class Employee {
 
-  @Id
   private long id;
   private double salary;
 
