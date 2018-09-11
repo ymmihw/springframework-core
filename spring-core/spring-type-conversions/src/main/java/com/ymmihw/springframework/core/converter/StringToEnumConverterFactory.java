@@ -5,7 +5,7 @@ import org.springframework.core.convert.converter.ConverterFactory;
 import org.springframework.stereotype.Component;
 
 @Component
-public class StringToEnumConverterFactory implements ConverterFactory<String, Enum> {
+public class StringToEnumConverterFactory implements ConverterFactory<String, Enum<?>> {
 
   private static class StringToEnumConverter<T extends Enum<T>> implements Converter<String, T> {
 
@@ -22,7 +22,7 @@ public class StringToEnumConverterFactory implements ConverterFactory<String, En
   }
 
   @Override
-  public <T extends Enum> Converter<String, T> getConverter(Class<T> targetType) {
+  public <T extends Enum<?>> Converter<String, T> getConverter(Class<T> targetType) {
     return new StringToEnumConverter(targetType);
   }
 }
