@@ -9,3 +9,4 @@ classpath-file-access | [Access a File from the Classpath in a Spring Applicatio
 #### spring-core
 Module | Article
 --|--
+spring-type-conversions | [Guide to Spring Type Conversions](https://www.baeldung.com/spring-type-conversions)
