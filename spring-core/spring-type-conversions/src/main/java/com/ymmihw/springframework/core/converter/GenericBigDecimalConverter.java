@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 import java.util.Set;
 
 @Component
-
 public class GenericBigDecimalConverter implements GenericConverter {
 
   @Override
