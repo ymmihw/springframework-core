@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class StringToEnumConverterFactory implements ConverterFactory<String, Enum> {
 
-  private static class StringToEnumConverter<T extends Enum> implements Converter<String, T> {
+  private static class StringToEnumConverter<T extends Enum<T>> implements Converter<String, T> {
 
     private Class<T> enumType;
 
@@ -17,7 +17,7 @@ public class StringToEnumConverterFactory implements ConverterFactory<String, En
 
     @Override
     public T convert(String source) {
-      return (T) Enum.valueOf(this.enumType, source.trim());
+      return Enum.valueOf(this.enumType, source.trim());
     }
   }
 
