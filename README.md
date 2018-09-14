@@ -10,3 +10,4 @@ classpath-file-access | [Access a File from the Classpath in a Spring Applicatio
 Module | Article
 --|--
 spring-type-conversions | [Guide to Spring Type Conversions](https://www.baeldung.com/spring-type-conversions)
+spring-stream-utils | [Introduction to Spring’s StreamUtils](https://www.baeldung.com/spring-stream-utils)
