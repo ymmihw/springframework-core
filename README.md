@@ -16,3 +16,8 @@ spring-stream-utils | [Introduction to Spring’s StreamUtils](https://www.baeld
 Module | Article
 --|--
 spring-custom-scope | [Custom Scope in Spring](https://www.baeldung.com/spring-custom-scope)
+
+### spring-aop
+Module | Article
+--|--
+spring-aop-custom-annotation | [Implementing a Custom Spring AOP Annotation](https://www.baeldung.com/spring-aop-annotation)
