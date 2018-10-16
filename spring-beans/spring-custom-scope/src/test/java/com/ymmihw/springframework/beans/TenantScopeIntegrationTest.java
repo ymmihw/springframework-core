@@ -15,7 +15,7 @@ public class TenantScopeIntegrationTest {
   public final void whenRegisterScopeAndBeans_thenContextContainsFooAndBar() {
     AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
     try {
-      ctx.register(TenantScopeConfig.class);
+      ctx.register(TenantBeanFactoryPostProcessor.class);
       ctx.register(TenantBeansConfig.class);
       ctx.refresh();
 
