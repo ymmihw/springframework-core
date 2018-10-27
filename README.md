@@ -22,3 +22,4 @@ spring-custom-scope | [Custom Scope in Spring](https://www.baeldung.com/spring-c
 Module | Article
 --|--
 spring-aop-custom-annotation | [Implementing a Custom Spring AOP Annotation](https://www.baeldung.com/spring-aop-annotation)
+spring-performance-logging | [Spring Performance Logging](http://www.baeldung.com/spring-performance-logging)
