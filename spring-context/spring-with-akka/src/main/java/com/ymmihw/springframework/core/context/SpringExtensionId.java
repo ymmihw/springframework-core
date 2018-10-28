@@ -6,16 +6,16 @@ import akka.actor.ExtendedActorSystem;
 import akka.actor.Extension;
 import akka.actor.Props;
 
-public class SpringExtension extends AbstractExtensionId<SpringExtension.SpringExt> {
+public class SpringExtensionId extends AbstractExtensionId<SpringExtensionId.SpringExtension> {
 
-  public static final SpringExtension SPRING_EXTENSION_PROVIDER = new SpringExtension();
+  public static final SpringExtensionId SPRING_EXTENSION_PROVIDER = new SpringExtensionId();
 
   @Override
-  public SpringExt createExtension(ExtendedActorSystem system) {
-    return new SpringExt();
+  public SpringExtension createExtension(ExtendedActorSystem system) {
+    return new SpringExtension();
   }
 
-  public static class SpringExt implements Extension {
+  public static class SpringExtension implements Extension {
 
     private volatile ApplicationContext applicationContext;
 
@@ -26,7 +26,5 @@ public class SpringExtension extends AbstractExtensionId<SpringExtension.SpringE
     public Props props(String actorBeanName) {
       return Props.create(SpringActorProducer.class, applicationContext, actorBeanName);
     }
-
   }
-
 }

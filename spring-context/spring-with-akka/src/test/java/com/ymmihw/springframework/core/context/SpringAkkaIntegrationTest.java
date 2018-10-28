@@ -1,7 +1,7 @@
 package com.ymmihw.springframework.core.context;
 
 import static akka.pattern.Patterns.ask;
-import static com.ymmihw.springframework.core.context.SpringExtension.SPRING_EXTENSION_PROVIDER;
+import static com.ymmihw.springframework.core.context.SpringExtensionId.SPRING_EXTENSION_PROVIDER;
 import java.util.concurrent.TimeUnit;
 import org.junit.After;
 import org.junit.Assert;

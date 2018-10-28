@@ -1,6 +1,6 @@
 package com.ymmihw.springframework.core.context;
 
-import static com.ymmihw.springframework.core.context.SpringExtension.SPRING_EXTENSION_PROVIDER;
+import static com.ymmihw.springframework.core.context.SpringExtensionId.SPRING_EXTENSION_PROVIDER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
