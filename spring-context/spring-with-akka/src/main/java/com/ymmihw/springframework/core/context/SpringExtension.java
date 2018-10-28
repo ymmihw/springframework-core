@@ -1,10 +1,10 @@
 package com.ymmihw.springframework.core.context;
 
+import org.springframework.context.ApplicationContext;
 import akka.actor.AbstractExtensionId;
 import akka.actor.ExtendedActorSystem;
 import akka.actor.Extension;
 import akka.actor.Props;
-import org.springframework.context.ApplicationContext;
 
 public class SpringExtension extends AbstractExtensionId<SpringExtension.SpringExt> {
 

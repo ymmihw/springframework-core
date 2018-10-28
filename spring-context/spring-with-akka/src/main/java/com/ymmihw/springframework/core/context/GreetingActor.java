@@ -28,6 +28,7 @@ public class GreetingActor extends AbstractActor {
     }
   }
 
+  @Override
   public Receive createReceive() {
     return receiveBuilder().match(Greet.class, d -> {
       getSender().tell(greetingService.greet(d.getName()), getSelf());

@@ -1,8 +1,8 @@
 package com.ymmihw.springframework.core.context;
 
+import org.springframework.context.ApplicationContext;
 import akka.actor.Actor;
 import akka.actor.IndirectActorProducer;
-import org.springframework.context.ApplicationContext;
 
 public class SpringActorProducer implements IndirectActorProducer {
 
