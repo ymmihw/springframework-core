@@ -23,3 +23,8 @@ Module | Article
 --|--
 spring-aop-custom-annotation | [Implementing a Custom Spring AOP Annotation](https://www.baeldung.com/spring-aop-annotation)
 spring-performance-logging | [Spring Performance Logging](http://www.baeldung.com/spring-performance-logging)
+
+### spring-context
+Module | Article
+--|--
+spring-with-akka | [Introduction to Spring with Akka](https://www.baeldung.com/akka-with-spring)
