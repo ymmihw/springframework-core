@@ -27,4 +27,6 @@ public class SpringExtensionId extends AbstractExtensionId<SpringExtensionId.Spr
       return Props.create(SpringActorProducer.class, applicationContext, actorBeanName);
     }
   }
+
+  private SpringExtensionId() {}
 }
