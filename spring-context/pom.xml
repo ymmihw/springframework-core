@@ -10,7 +10,6 @@
 
  <groupId>com.ymmihw.springframework.core.context</groupId>
  <artifactId>spring-context</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <packaging>pom</packaging>
 
 
@@ -33,4 +32,7 @@
  </build>
  <dependencies>
  </dependencies>
+ <modules>
+  <module>spring-with-akka</module>
+ </modules>
 </project>

@@ -9,7 +9,6 @@
  </parent>
  <groupId>com.ymmihw.springframework.core</groupId>
  <artifactId>classpath-file-access</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <name>classpath-file-access</name>
  <url>http://maven.apache.org</url>
  <properties>

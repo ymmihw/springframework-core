@@ -21,6 +21,8 @@ public class StringToEnumConverterFactory implements ConverterFactory<String, En
     }
   }
 
+  // TODO unchecked & rawtypes
+  @SuppressWarnings({"unchecked", "rawtypes"})
   @Override
   public <T extends Enum<?>> Converter<String, T> getConverter(Class<T> targetType) {
     return new StringToEnumConverter(targetType);
