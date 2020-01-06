@@ -8,9 +8,7 @@
   <version>0.0.1-SNAPSHOT</version>
  </parent>
 
- <groupId>com.ymmihw.springframework.core.context</groupId>
  <artifactId>spring-with-akka</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <packaging>jar</packaging>
 
 

@@ -27,7 +27,7 @@ public class CustomConverterIntegrationTest {
 
   @Test
   public void whenConvertStringToEmployee_thenSuccess() {
-    Employee employee = conversionService.convert("1,50000.00", Employee.class);
+    conversionService.convert("1,50000.00", Employee.class);
     Employee actualEmployee = new Employee(1, 50000.00);
     assertThat(conversionService.convert("1,50000.00", Employee.class))
         .isEqualToComparingFieldByField(actualEmployee);

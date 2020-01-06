@@ -7,9 +7,7 @@
   <artifactId>core-ioc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
  </parent>
- <groupId>com.ymmihw.springframework</groupId>
  <artifactId>lookup</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <name>lookup</name>
  <url>http://maven.apache.org</url>
  <properties>

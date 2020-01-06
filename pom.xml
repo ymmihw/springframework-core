@@ -32,4 +32,12 @@
    <scope>test</scope>
   </dependency>
  </dependencies>
+ <modules>
+  <module>classpath-file-access</module>
+  <module>core-ioc</module>
+  <module>spring-aop</module>
+  <module>spring-beans</module>
+  <module>spring-context</module>
+  <module>spring-core</module>
+ </modules>
 </project>

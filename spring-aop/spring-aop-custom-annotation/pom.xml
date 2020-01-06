@@ -9,7 +9,6 @@
  </parent>
  <groupId>com.ymmihw.springframework.aop</groupId>
  <artifactId>spring-aop-custom-annotation</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <name>spring-aop-custom-annotation</name>
  <url>http://maven.apache.org</url>
  <properties>

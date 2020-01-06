@@ -7,9 +7,7 @@
   <artifactId>springframework-core</artifactId>
   <version>0.0.1-SNAPSHOT</version>
  </parent>
- <groupId>com.ymmihw.springframework</groupId>
  <artifactId>spring-aop</artifactId>
- <version>0.0.1-SNAPSHOT</version>
  <packaging>pom</packaging>
  <name>spring-aop</name>
  <url>http://maven.apache.org</url>
@@ -22,4 +20,8 @@
    <artifactId>spring-boot-starter-aop</artifactId>
   </dependency>
  </dependencies>
+ <modules>
+  <module>spring-aop-custom-annotation</module>
+  <module>spring-performance-logging</module>
+ </modules>
 </project>
