@@ -15,6 +15,7 @@ spring-injection-lombok | [Constructor Injection in Spring with Lombok](https://
 Module | Article
 --|--
 spring-custom-scope | [Custom Scope in Spring](https://www.baeldung.com/spring-custom-scope)
+object-provider-example | [Spring - Programmatic Lookup of dependencies via ObjectProvider](https://www.logicbig.com/tutorials/spring-framework/spring-core/object-provider.html)
 
 ### spring-aop
 Module | Article
