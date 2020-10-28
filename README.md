@@ -10,6 +10,7 @@ Module | Article
 spring-type-conversions | [Guide to Spring Type Conversions](https://www.baeldung.com/spring-type-conversions)
 spring-stream-utils | [Introduction to Spring’s StreamUtils](https://www.baeldung.com/spring-stream-utils)
 spring-injection-lombok | [Constructor Injection in Spring with Lombok](https://www.baeldung.com/spring-injection-lombok)
+spring-resource-injection | [Spring - Resource Injection](https://www.logicbig.com/tutorials/spring-framework/spring-core/injecting-resources.html)
 
 ### spring-beans
 Module | Article
