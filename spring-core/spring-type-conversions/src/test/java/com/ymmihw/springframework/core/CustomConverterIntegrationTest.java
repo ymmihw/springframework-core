@@ -2,17 +2,14 @@ package com.ymmihw.springframework.core;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import java.math.BigDecimal;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.convert.ConversionService;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import com.ymmihw.springframework.core.domain.Employee;
 import com.ymmihw.springframework.core.domain.Modes;
 
-@RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = Application.class)
 @WebAppConfiguration
 public class CustomConverterIntegrationTest {
