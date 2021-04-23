@@ -1,8 +1,8 @@
 package com.ymmihw.springframework.core;
 
 import static com.ymmihw.springframework.core.CopyStream.getStringFromInputStream;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.util.StreamUtils;
 
 public class CopyStreamIntegrationTest {

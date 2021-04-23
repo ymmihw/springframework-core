@@ -2,12 +2,12 @@ package com.ymmihw.springframework.core.context;
 
 import static akka.pattern.Patterns.ask;
 import static com.ymmihw.springframework.core.context.SpringExtensionId.SPRING_EXTENSION_PROVIDER;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.concurrent.TimeUnit;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests;
 import com.ymmihw.springframework.core.context.GreetingActor.Greet;
 import akka.actor.ActorRef;
@@ -17,7 +17,7 @@ import scala.concurrent.Await;
 import scala.concurrent.Future;
 import scala.concurrent.duration.FiniteDuration;
 
-@ContextConfiguration(classes = AppConfiguration.class)
+@SpringBootTest(classes = AppConfiguration.class)
 public class SpringAkkaIntegrationTest extends AbstractJUnit4SpringContextTests {
 
   @Autowired
@@ -33,10 +33,10 @@ public class SpringAkkaIntegrationTest extends AbstractJUnit4SpringContextTests 
 
     Future<Object> result = ask(greeter, new Greet("John"), timeout);
 
-    Assert.assertEquals("Hello, John", Await.result(result, duration));
+    assertEquals("Hello, John", Await.result(result, duration));
   }
 
-  @After
+  @AfterEach
   public void tearDown() {
     system.terminate();
   }

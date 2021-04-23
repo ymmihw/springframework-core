@@ -1,15 +1,15 @@
 package com.ymmihw.springframework.core;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.support.AnnotationConfigContextLoader;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.when;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest
 @ContextConfiguration(loader = AnnotationConfigContextLoader.class, classes = TestConfig.class)
 public class GreetingServiceIntegrationTest {
 
@@ -26,9 +26,10 @@ public class GreetingServiceIntegrationTest {
     assertEquals(translated, greetingService.greet());
   }
 
-  @Test(expected = NullPointerException.class)
+  @Test
   public void throwWhenInstantiated() {
     GreetingService greetingService = new GreetingService();
-    greetingService.greet();
+
+    assertThrows(NullPointerException.class, () -> greetingService.greet());
   }
 }
