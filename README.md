@@ -17,6 +17,7 @@ Module | Article
 --|--
 spring-custom-scope | [Custom Scope in Spring](https://www.baeldung.com/spring-custom-scope)
 object-provider-example | [Spring - Programmatic Lookup of dependencies via ObjectProvider](https://www.logicbig.com/tutorials/spring-framework/spring-core/object-provider.html)
+spring-beans-dynamic-registration-properties | [Dynamically Register Spring Beans Based on Properties](https://www.baeldung.com/spring-beans-dynamic-registration-properties)
 
 ### spring-aop
 Module | Article
