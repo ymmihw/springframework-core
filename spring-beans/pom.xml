@@ -18,5 +18,6 @@
  <modules>
   <module>spring-custom-scope</module>
     <module>object-provider-example</module>
-  </modules>
+     <module>spring-beans-dynamic-registration-properties</module>
+ </modules>
 </project>
