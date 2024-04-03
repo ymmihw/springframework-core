@@ -36,3 +36,4 @@ Module | Article
 ioc-order | [@Order in Spring](http://www.baeldung.com/spring-order)
 lookup | [@Lookup Annotation in Spring](http://www.baeldung.com/spring-lookup)
 methods-inter-dependency | [Spring - Dependency injection in @Bean method parameters](https://www.logicbig.com/tutorials/spring-framework/spring-core/javaconfig-methods-inter-dependency.html)
+spring-prototype-bean-runtime-arguments | [Create Spring Prototype Scope Bean with Runtime Arguments](https://www.baeldung.com/spring-prototype-bean-runtime-arguments)

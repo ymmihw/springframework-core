@@ -23,5 +23,6 @@
   <module>ioc-order</module>
   <module>lookup</module>
     <module>methods-inter-dependency</module>
-  </modules>
+     <module>spring-prototype-bean-runtime-arguments</module>
+ </modules>
 </project>
